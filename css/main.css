@@ -1,0 +1,158 @@
+body {
+  color: #2b2b2b;
+  font-family: 'Source Sans Pro', sans-serif;
+  background:#dcdcdc;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+color: black;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 12px;
+}
+
+p {
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  float: left;
+}
+header span {
+  color: #77a466;
+}
+header nav {
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #77a466;
+}
+
+.top {
+  width: 1200px;
+  border-bottom: 2px solid #ebebeb
+}
+
+#welcome {
+  font-family: 'Yellowtail', cursive;
+}
+
+.title {
+  width: 600px;
+}
+
+.middle h2 {
+  color: #77a466;
+}
+
+.middle p {
+  text-align: left;
+}
+
+.middle {
+  border-bottom: 2px solid #ebebeb;
+  border-top: 2px solid #ebebeb;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.last {
+  float: left;
+  border-left: 2px solid #ebebeb;
+  border-right: 2px solid #ebebeb;
+}
+
+.last h4 {
+  font-family: 'Lora', sans-serif;
+}
+
+.specials {
+  width: 395px;
+  float: left;
+  text-align: center;
+}
+
+.specials ul {
+  list-style-type: none;
+}
+
+.specials h4 {
+  text-align: center;
+}
+
+.reviews {
+  width: 395px;
+  float: left;
+  text-align: center;
+  border-left: 2px solid #ebebeb;
+  border-right: 2px solid #ebebeb;
+  margin: auto;
+}
+
+.contact-us {
+  width: 395px;
+  float: left;
+  text-align: center;
+  border-right: 2px solid #ebebeb;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  clear: both;
+  border-top: 2px solid #ebebeb;
+}
+
+#fresh {
+  color: #228b22;
+}
+
+.local {
+  color: #a9a9a9;
+}
+
+/* SCRAPPED CSS AND REWROTE
+
+I didn't want to look at the solution code, but it became obvious early that I
+missed some things in my HTML and my CSS. I forgot to add a main wrapper div,
+completely left out some sets of div tags, etc
+
+I also wasn't structuring my CSS properly according to the Skillcrush
+solution code. I was giving everything a class or ID rather than going from
+outside in and big to small.

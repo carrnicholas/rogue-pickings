@@ -1,0 +1,129 @@
+<!doctype html> <!-- this tag MUST be here -->
+
+<!-- NOTE: see long comments and notes at the bottom of the code base -->
+<!-- NOTE: line running along right edge of screen in Atom is "wrap guide" -->
+<!-- NOTE: some small tweaks from original Skillcrush base code. See bottom. -->
+
+<!-- This is going to become my HTML boilerplate. It will slowly evolve over
+time, even though it'll be really simple at first
+
+Things included...
+
+*Meta tags
+*Google Fonts links
+*Head/body delineator
+
+-->
+
+<html lang="en">
+<head>
+  <!-- CSS link always goes in the head tag-->
+  <title>Rogue Pickings | The Best Food Truck Ever</title>
+  <!-- CSS stylesheet links are below -->
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css"> <!-- main CSS -->
+
+<!-- Google Fonts link for Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Google Fonts link for Lora -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- I thought I linked to the bold version of Lora in the link above, but here
+it is again anyway -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+
+<!-- Montserrat font link -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Yellowtail font -->
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+<!-- custom meta tags not part of Skillcrush base code below -->
+<meta charset="utf-8">
+<meta name="author" content="Jubilee Austen">
+<meta name="description" content="Rogue Picking Food Truck">
+<!-- end of custom meta tags; these tags are for character encoding -->
+</head>
+
+<!-- ******** Head ^ Body v ******** -->
+
+<body>
+  <div class="main">
+  <header>
+    <div class="top">
+    <div class="title"> <!-- open half-wdith 1 -->
+      <h1><span id="rogue">Rogue</span> Pickings</h1>
+    </div> <!-- close title -->
+      <div class="navbar"> <!-- open half-width 2 -->
+        <nav>
+        <ul>
+          <li><a href="https://www.al.com/" target="_blank">About</a></li>
+          <li><a href="https://www.espn.com/" target="_blank">Menu</a></li>
+          <li><a href="https://www.nfl.com/" target="_blank">Locations</a></li>
+          <li><a href="https://zenhabits.net/start/" target="_blank">Gallery</a></li>
+          <li><a href="https://www.saturdaydownsouth.com/" target="_blank">Reviews</a></li>
+          <li><a href="https://www.w3schools.com/" target="_blank">Content</a></li>
+        </ul>
+        </nav> <!-- close nav bar -->
+      </div> <!-- close navbar -->
+    </div> <!-- close top -->
+  </header>
+  <main> <!-- important for semantic web structure -->
+  <section id="about">
+    <div class="top-picture">
+      <img src="img/hero.png" alt="green beans" />
+    </div> <!-- closing tag for picture -->
+    <div class="middle">
+    <h2><span id="welcome">Welcome</span> to our little corner of the Internet!</h2>
+    <p> Welcome to Rogue Pickings, the roaming truck bringing you the freshest
+      ingredients and ideas in food. Our team works hard so you can be sure our
+      ingredients are always fresh and picked carefully. Our menu changes every
+      day and is made with you in mind. We can't wait to come to you! Check out
+      our locations to see where you can find us. </p>
+    </div> <!-- closing tag for middle -->
+  </section> <!-- close about section -->
+  <div class="last">
+  <section id="bottom">
+    <div class="specials">
+      <h4>Today's Specials</h4>
+      <ul class="menu">
+      <li>Flaming Hummus</li>
+      <li>Sizzling Bean Burrito</li>
+      <li>Green Gloves Tamales</li>
+      </ul>
+    </div> <!-- close specials div -->
+    <div class="reviews">
+      <h4>Our Awesome Reviews</h4>
+      <p>I got so excited about the yumminess of the falafel sald that I am
+        typing this review as I inhale my lunch. Yes it is that good...service
+        was super friendly and quick. Can't wait to see you again Rogue Pickings
+        tomorrow! </p>
+      </div> <!-- close reviews div -->
+    <div class="contact-us">
+      <h4>Contact Us</h4>
+      <p>1001 Potreto Avenue<br>
+        San Francisco, CA 94110<br>
+        415-206-8000 </p>
+      </div> <!-- close address div -->
+    </div> <!-- close bottom div -->
+  <footer>
+      <p>Powered by lots of <span id="fresh">fresh</span> ingredients!</p><br>
+      <p>Made with love from <span class="local">BHM</span> x <span class="local">AL</span></p>
+  </footer>
+</main>
+</body>
+</div> <!-- closing wrapper for bottom -->
+</div> <!-- close main div -->
+</html>
+
+<!-- GENERAL COMMENTS AND QUESTIONS
+
+Q: The green bean picture problem
+
+A: What I didn't realize here is this picture required it's own separate div. I
+tried to put it with the header, but that's not where it is supposed to go!
+
+
+
+-->
