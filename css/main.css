@@ -28,12 +28,13 @@ h3 {
   font-size: 18px;
 }
 h4 {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 p {
   line-height: 20px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 header {
@@ -50,11 +51,14 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 nav ul li {
   display: inline-block;
   padding: 15px;
+  font-size: 16px;
 }
 
 nav ul li a {
@@ -106,21 +110,30 @@ nav ul li a {
 .specials {
   width: 395px;
   float: left;
-  text-align: center;
+  text-align: left;
+  margin: auto;
 }
 
 .specials ul {
   list-style-type: none;
+  float: left;
+  clear: both;
+}
+
+.specials ul li {
+  color: #77a466;
+  line-height: 20px;
 }
 
 .specials h4 {
-  text-align: center;
+  text-align: left;
+  float: left;
 }
 
 .reviews {
   width: 395px;
   float: left;
-  text-align: center;
+  text-align: left;
   border-left: 2px solid #ebebeb;
   border-right: 2px solid #ebebeb;
   margin: auto;
@@ -129,8 +142,9 @@ nav ul li a {
 .contact-us {
   width: 395px;
   float: left;
-  text-align: center;
+  text-align: left;
   border-right: 2px solid #ebebeb;
+  margin: auto;
 }
 
 footer {
