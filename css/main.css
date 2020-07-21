@@ -72,6 +72,11 @@ nav ul li a {
   color: #77a466;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: #ff0800;
+}
+
 #welcome {
   /* font-family: 'Yellowtail', cursive; */
   color: #9b9b9b;
