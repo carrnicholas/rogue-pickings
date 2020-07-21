@@ -1,12 +1,23 @@
 body {
   color: #2b2b2b;
   font-family: 'Source Sans Pro', sans-serif;
-  background:#dcdcdc;
+  background:#f2f3f4;
 }
 
-.main {
+.full-width {
   width: 1200px;
   margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  float: left;
+  width: 370px;
 }
 
 h1,
@@ -37,14 +48,8 @@ p {
   font-size: 16px;
 }
 
-header {
-  float: left;
-}
 header span {
   color: #77a466;
-}
-header nav {
-  float: right;
 }
 
 nav ul {
@@ -67,91 +72,34 @@ nav ul li a {
   color: #77a466;
 }
 
-.top {
-  width: 1200px;
-  border-bottom: 2px solid #ebebeb
-}
-
 #welcome {
   /* font-family: 'Yellowtail', cursive; */
   color: #9b9b9b;
 }
 
-.title {
-  width: 600px;
-}
-
-.middle h2 {
-  color: #77a466;
-}
-
-.middle p {
-  text-align: left;
-}
-
-.middle {
-  border-bottom: 2px solid #ebebeb;
-  border-top: 2px solid #ebebeb;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  margin-top: 10px;
-}
-
-.last {
+#last .third-width {
   float: left;
-  border-left: 2px solid #ebebeb;
-  border-right: 2px solid #ebebeb;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #c0c0c0;
 }
 
-.last h4 {
-  font-family: 'Lora', sans-serif;
-}
-
-.specials {
-  width: 395px;
-  float: left;
-  text-align: left;
-  margin: auto;
-}
-
-.specials ul {
+#last ul {
   list-style-type: none;
-  float: left;
-  clear: both;
-}
-
-.specials ul li {
-  color: #77a466;
-  line-height: 20px;
-}
-
-.specials h4 {
   text-align: left;
-  float: left;
 }
 
-.reviews {
-  width: 395px;
-  float: left;
-  text-align: left;
-  border-left: 2px solid #ebebeb;
-  border-right: 2px solid #ebebeb;
-  margin: auto;
-}
-
-.contact-us {
-  width: 395px;
-  float: left;
-  text-align: left;
-  border-right: 2px solid #ebebeb;
-  margin: auto;
+#center {
+  border-left: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
 }
 
 footer {
+  width: 1200px;
   text-align: center;
   margin: 0 auto;
   clear: both;
-  border-top: 2px solid #ebebeb;
+  border-top: 2px solid #c0c0c0;
 }
 
 #fresh {
@@ -171,3 +119,7 @@ completely left out some sets of div tags, etc
 I also wasn't structuring my CSS properly according to the Skillcrush
 solution code. I was giving everything a class or ID rather than going from
 outside in and big to small.
+
+CSS NEEDS A SECOND REWRITE: 7-17-20
+
+*/

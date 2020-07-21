@@ -49,13 +49,12 @@ it is again anyway -->
 <!-- ******** Head ^ Body v ******** -->
 
 <body>
-  <div class="main">
   <header>
-    <div class="top">
-    <div class="title"> <!-- open half-wdith 1 -->
-      <h1><span id="rogue">Rogue</span> Pickings</h1>
-    </div> <!-- close title -->
-      <div class="navbar"> <!-- open half-width 2 -->
+    <div class="full-width">
+      <div class="half-width"> <!-- open half-width 1 -->
+        <h1><span id="rogue">Rogue</span> Pickings</h1>
+      </div> <!-- close half-width 1 -->
+      <div class="half-width">
         <nav>
         <ul>
           <li><a href="https://www.al.com/" target="_blank">About</a></li>
@@ -66,15 +65,13 @@ it is again anyway -->
           <li><a href="https://www.w3schools.com/" target="_blank">Content</a></li>
         </ul>
         </nav> <!-- close nav bar -->
-      </div> <!-- close navbar -->
-    </div> <!-- close top -->
+      </div> <!-- close half-width 2 -->
+    </div> <!-- close full-width -->
   </header>
   <main> <!-- important for semantic web structure -->
   <section id="about">
-    <div class="top-picture">
+    <div class="full-width" id="middle">
       <img src="img/hero.png" alt="green beans" />
-    </div> <!-- closing tag for picture -->
-    <div class="middle">
     <h2><span id="welcome">Welcome</span> to our little corner of the Internet!</h2>
     <p> Welcome to Rogue Pickings, the roaming truck bringing you the freshest
       ingredients and ideas in food. Our team works hard so you can be sure our
@@ -83,38 +80,37 @@ it is again anyway -->
       our locations to see where you can find us. </p>
     </div> <!-- closing tag for middle -->
   </section> <!-- close about section -->
-  <div class="last">
-  <section id="bottom">
-    <div class="specials">
+  <section id="last">
+  <div class="full-width" id="top-border">
+    <div class="third-width" id="left">
       <h4>Today's Specials</h4>
-      <ul class="menu">
+      <ul>
       <li>Flaming Hummus</li>
       <li>Sizzling Bean Burrito</li>
       <li>Green Gloves Tamales</li>
       </ul>
-    </div> <!-- close specials div -->
-    <div class="reviews">
+    </div> <!-- close third-width 1-->
+    <div class="third-width" id="center">
       <h4>Our Awesome Reviews</h4>
       <p>I got so excited about the yumminess of the falafel sald that I am
         typing this review as I inhale my lunch. Yes it is that good...service
         was super friendly and quick. Can't wait to see you again Rogue Pickings
         tomorrow! </p>
-      </div> <!-- close reviews div -->
-    <div class="contact-us">
+      </div> <!-- close third-width 2 -->
+    <div class="third-width" id="right">
       <h4>Contact Us</h4>
       <p>1001 Potreto Avenue<br>
         San Francisco, CA 94110<br>
         415-206-8000 </p>
-      </div> <!-- close address div -->
-    </div> <!-- close bottom div -->
+      </div> <!-- close third-width 3-->
+    </div> <!-- close full-width -->
+  </section>
   <footer>
       <p>Powered by lots of <span id="fresh">fresh</span> ingredients!</p><br>
       <p>Made with love from <span class="local">BHM</span> x <span class="local">AL</span></p>
   </footer>
 </main>
 </body>
-</div> <!-- closing wrapper for bottom -->
-</div> <!-- close main div -->
 </html>
 
 <!-- GENERAL COMMENTS AND QUESTIONS
@@ -124,6 +120,13 @@ Q: The green bean picture problem
 A: What I didn't realize here is this picture required it's own separate div. I
 tried to put it with the header, but that's not where it is supposed to go!
 
+HTML needs rewrite: 7-17-20
+Things to do
+Rename divs...full-width, half-width, etc
+Use sections
+Other style corrections
 
+Once done, push rewritten gode to GitHub and GitHub Pages
+Merge branches
 
 -->
