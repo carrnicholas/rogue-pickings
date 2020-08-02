@@ -52,6 +52,10 @@ header span {
   color: #77a466;
 }
 
+#home h1 a {
+  text-decoration: none;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
